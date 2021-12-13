@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <title>iCoder - Heavan for programmers</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="/iCoderBootsrap/index.html">iCoder</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="/iCoderBootsrap/index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/iCoderBootsrap/about.html">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Topics
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Technology</a>
+            <a class="dropdown-item" href="#">Web Development</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Support</a>
+            <a class="dropdown-item" href="#">Write for us</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/iCoderBootsrap/contact.html">Contact us</a>
+        </li>
+
+
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+      <div class="mx-2">
+        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#loginModal">Login</button>
+        <button type="button" class="btn btn-danger"data-toggle="modal" data-target="#signupModal">Sign-up</button>
+      </div>
+    </div>
+  </nav>
+
+
+
+<!-- login Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Login to iCoder</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Login</button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- signup Modal -->
+<div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Get an iCoder account</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="form-group">
+            <label for="cexampleInputPassword1">Conform Password</label>
+            <input type="password" class="form-control" id="cexampleInputPassword1">
+          </div>
+          
+          <button type="submit" class="btn btn-primary">Create Account</button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+       
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+  <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://source.unsplash.com/1400x400/?code,technology" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Welcome to iCoder</h2>
+          <p>Technology, Development & Trends</p>
+          <button type="button" class="btn btn-danger">Technology</button>
+          <button type="button" class="btn btn-primary">Web Development</button>
+          <button type="button" class="btn btn-success">Tech Fun</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://source.unsplash.com/1400x400/?technology,program" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>The best coding blog</h2>
+          <p>Technology, Development & Trends</p>
+          <button type="button" class="btn btn-danger">Technology</button>
+          <button type="button" class="btn btn-primary">Web Development</button>
+          <button type="button" class="btn btn-success">Tech Fun</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://source.unsplash.com/1400x400/?code,software" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h2>Award winning blog</h2>
+          <p>Technology, Development & Trends</p>
+          <a href="https://www.simplilearn.com/java-full-stack-developer-certification-training-course?&utm_source=google&utm_medium=cpc&utm_term=%2Bjava%20%2Btraining&utm_content=949673033-95299791303-420728906155&utm_device=c&utm_campaign=Search-TechCluster-SD-FullStack-IN-Main-AllDevice-adgroup-Java-Training&gclid=Cj0KCQiA2NaNBhDvARIsAEw55hiSICF6WTkNyOeHdGsqQjx0CBPUj9zJePEqu2KE3uKrNKznXzQJPEEaAmpfEALw_wcB"
+            target="blank"><button type="button" class="btn btn-danger">Java</button></a>
+          <a href="https://hackr.io/tutorials/learn-python" target="blank"><button type="button"
+              class="btn btn-primary">Python</button></a>
+          <a href="https://www.toptal.com/c/the-ultimate-list-of-resources-to-learn-c-and-c-plus-plus"
+            target="blank"><button type="button" class="btn btn-success">C++</button></a>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <div class="container my-4">
+    <div class="row mb-2">
+      <div class="col-md-6">
+        <div
+          class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-primary">Front-End</strong>
+            <h3 class="mb-0">Global Coding conference </h3>
+            <div class="mb-1 text-muted">Dec 25</div>
+            <p class="card-text mb-auto">“Technology is best when it brings people together.”</p>
+            <a href="https://www.codecademy.com/learn/paths/web-development?g_network=g&g_device=c&g_adid=526484367021&g_keyword=front%20end%20web%20developer&g_acctid=243-039-7011&g_adtype=search&g_adgroupid=123652303918&g_keywordid=kwd-4312888297&g_campaign=IN+Career+Path%3A+Pro+-+Exact&g_campaignid=13243755486&utm_id=t_kwd-4312888297:ag_123652303918:cp_13243755486:n_g:d_c&utm_term=front%20end%20web%20developer&utm_campaign=IN%20Career%20Path%3A%20Pro%20-%20Exact&utm_source=google&utm_medium=paid-search&utm_content=526484367021&hsa_acc=2430397011&hsa_cam=13243755486&hsa_grp=123652303918&hsa_ad=526484367021&hsa_src=g&hsa_tgt=kwd-4312888297&hsa_kw=front%20end%20web%20developer&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQiA2NaNBhDvARIsAEw55hg2xQiWwMnKgFn72-pHunorOW29Eilzc4MC1PoAWQ7M8AnT8nW61PkaAkhKEALw_wcB"
+              target="blank" class="stretched-link">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img class="bd-placeholder-img" width="200" height="250"
+              src="https://source.unsplash.com/200x250/?tech,phone" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div
+          class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-success">Back-End</strong>
+            <h3 class="mb-0">Happy Coding</h3>
+            <div class="mb-1 text-muted">Dec 12</div>
+            <p class="mb-auto">Any fool can write code that a computer can understand. </p>
+            <a href="https://www.interviewbit.com/blog/backend-developer-skills/" target="blank"
+              class="stretched-link">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img class="bd-placeholder-img" width="200" height="250"
+              src="https://source.unsplash.com/200x250/?developer" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mb-2">
+      <div class="col-md-6">
+        <div
+          class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-primary">Android Development</strong>
+            <h3 class="mb-0">Best Android Development Platform</h3>
+            <div class="mb-1 text-muted">Dec 25</div>
+            <p class="card-text mb-auto">“Your mobile device has quickly become the easiest portal into your digital
+              self.”</p>
+            <a href="https://developer.android.com/courses?gclid=Cj0KCQiA2NaNBhDvARIsAEw55hhq8j0EzE5vTSKvRLyeHSTTRYGf_s3BhmtUgPzXBgIzO-0zUTXTwqUaAhnxEALw_wcB&gclsrc=aw.ds"
+              target="blank" class="stretched-link">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img class="bd-placeholder-img" width="200" height="250"
+              src="https://source.unsplash.com/200x250/?android phone" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div
+          class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-success">ethical hacking</strong>
+            <h3 class="mb-0">Hacker</h3>
+            <div class="mb-1 text-muted">Dec 12</div>
+            <p class="mb-auto">I'm a hacker, but I'm the good kind of hackers. And I've never been a criminal.</p>
+            <a href="https://www.craw.in/landing-page/certified-ethical-hacker/?gclid=Cj0KCQiA2NaNBhDvARIsAEw55hjXJyGJFypUjyQEuRlvRQjyjMY5UtX7YSrD1_GC-_m6BW0dElL239MaAry-EALw_wcB"
+              target="blank" class="stretched-link">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img class="bd-placeholder-img" width="200" height="250" src="https://source.unsplash.com/200x250/?hacker"
+              alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="container">
+    <p class="float-right"><a href="#">Back to top</a></p>
+    <p>© 2020-2021 iCoder, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
